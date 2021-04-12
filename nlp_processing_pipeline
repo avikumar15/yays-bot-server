@@ -1,0 +1,21 @@
+Starting sentence:
+"Where are we going, tonight?"
+
+After tokenizing:
+["Where", "are", "we", "going", ",", "tonight", "?"]
+
+After lowering and stemming:
+["where", "are", "we", "go", ",", "tonight", "?"]
+
+After excluding punctuations:
+["where", "are", "we", "go", "tonight"]
+
+Suppose entire dictionary contains words like
+
+["I", "no", "where", "you", "we", "are", "no", "tonight", "go"]
+
+Bag of words would convert our sentence to:
+[0, 0, 1, 0, 1, 1, 0, 1, 1]
+
+And we feed this to our Feed Forward Neural Network.
+We will be using nltk.
