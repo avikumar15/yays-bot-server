@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader
 with open('train.json', 'r') as f:
     data = json.load(f)
 
-print(data)
+# print(data)
 
 words = []
 classifications = []
@@ -28,7 +28,8 @@ for item in data['classes']:
 ignore_words = ['.', ',', '?', '!', '<', '>']
 words = [stem(w) for w in words if w not in ignore_words]
 words = sorted(set(words))
-print(words)
+all_words = words
+# print(words)
 
 x_train = []
 y_train = []
@@ -41,26 +42,24 @@ for tup in collections:
 x_train = np.array(x_train)
 y_train = np.array(y_train)
 
-print(x_train, y_train)
+# print(x_train, y_train)
 
+num_epochs = 1000
 batch_size = 8
-
-input_size = len(words)
+learning_rate = 0.001
+input_size = len(x_train[0])
 hidden_size = 8
 output_size = len(classifications)
 
-learning_rate = 0.001
-num_epochs = 1000
 
-print(input_size, len(x_train[0]))
-print(output_size, classifications)
+# print(input_size, len(x_train[0]))
+# print(output_size, classifications)
 
 dataset = ChatDataset(x_train=x_train, y_train=y_train)
-train_loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True, num_workers=2)
+train_loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True, num_workers=0)
 
-device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = NeuralNetwork(input_size=input_size, hidden_size=hidden_size, num_classes=output_size).to(device)
-
 # Loss and Optimiser
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
@@ -93,7 +92,7 @@ data = {
     "input_size": input_size,
     "hidden_size": hidden_size,
     "output_size": output_size,
-    "all_words": words,
+    "all_words": all_words,
     "tags": classifications
 }
 
