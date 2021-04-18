@@ -7,7 +7,7 @@ from nltk_wrapper import tokenise, stem, bag_of_words
 
 import torch
 import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import DataLoader
 
 with open('train.json', 'r') as f:
     data = json.load(f)

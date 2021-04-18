@@ -1,5 +1,5 @@
 .idea/
 __pycache__/
-data.pth
+deploy/chatbot_util/data.pth
 dev/
 venv/

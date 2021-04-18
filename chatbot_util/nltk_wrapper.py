@@ -1,3 +1,4 @@
+import numpy as np
 import nltk
 from nltk.stem.porter import PorterStemmer, StemmerI
 
@@ -20,8 +21,14 @@ def bag_of_words(tokenised_sentence, words):
     ["where", "are", "we", "go", "tonight"]
     [0, 0, 1, 0, 1, 1, 0, 1, 1]
     """
-    tokenised_sentence = [stem(w) for w in tokenised_sentence]
-    bag = [float(1) if w in tokenised_sentence else float(0) for w in words]
+    # stem each word
+    sentence_words = [stem(word) for word in tokenised_sentence]
+    # initialize bag with 0 for each word
+    bag = np.zeros(len(words), dtype=np.float32)
+    for idx, w in enumerate(words):
+        if w in sentence_words:
+            bag[idx] = 1
+
     return bag
 
 
