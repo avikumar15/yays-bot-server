@@ -18,6 +18,25 @@
       ]
     },
     {
+      "tag": "meme",
+      "patterns": [
+        "Joke",
+        "Tell me a joke",
+        "Meme",
+        "Send a meme",
+        "Laugh",
+        "Make me laugh",
+        "I want to laugh",
+        "I am sad",
+        "Send me meme",
+        "Tell me a meme",
+        "I haven't laughed for long"
+      ],
+      "responses": [
+        "MEME"
+      ]
+    },
+    {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [

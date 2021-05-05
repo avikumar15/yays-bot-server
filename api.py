@@ -8,6 +8,7 @@ from chatbot_util.nltk_wrapper import bag_of_words, tokenise
 from flask import Flask
 from flask import jsonify
 from flask_ngrok import run_with_ngrok
+import requests
 
 app = Flask(__name__)
 run_with_ngrok(app)
@@ -65,8 +66,23 @@ def index(input_message):
     json_output = dict()
     json_output['reply'] = output_message
 
+    if output_message == "MEME":
+        nsfw = True
+        is_gif = True
+        url = ""
+        while nsfw or is_gif:
+            response = requests.get("https://meme-api.herokuapp.com/gimme")
+            print(response.json())
+            nsfw = response.json()['nsfw']
+            url = response.json()['url']
+
+            if url.split('.')[-1] != 'gif':
+                is_gif = False
+
+            json_output['reply'] = url
+
     return jsonify(json_output)
 
 
 if __name__ == "__main__":
-  app.run()
+    app.run()
