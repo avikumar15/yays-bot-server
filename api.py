@@ -73,13 +73,14 @@ def index(input_message):
         while nsfw or is_gif:
             response = requests.get("https://meme-api.herokuapp.com/gimme")
             print(response.json())
+
             nsfw = response.json()['nsfw']
             url = response.json()['url']
 
             if url.split('.')[-1] != 'gif':
                 is_gif = False
 
-            json_output['reply'] = url
+            json_output['reply'] = str('m:' + url)
 
     return jsonify(json_output)
 

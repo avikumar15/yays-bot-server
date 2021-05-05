@@ -37,6 +37,82 @@
       ]
     },
     {
+      "tag": "motivational",
+      "patterns": [
+        "Down",
+        "I don't like this world",
+        "I failed my exam",
+        "I want to lie down",
+        "Fail",
+        "Motivate me",
+        "I don't have any motivation",
+        "Inspire me",
+        "I don't like anything in this world",
+        "I got F grade",
+        "I am down",
+        "Don't give me hopes",
+        "Disappointed",
+        "I have let myself down",
+        "Loser",
+        "I feel I am a loser",
+        "Give up",
+        "I give up"
+      ],
+      "responses": [
+        "i:https://image.shutterstock.com/image-vector/think-positive-feel-live-fashion-600w-1411413917.jpg",
+        "i:https://image.shutterstock.com/image-photo/inspirational-motivation-quote-best-view-600w-619342988.jpg",
+        "i:https://image.shutterstock.com/image-photo/fitness-motivation-quotes-600w-542165560.jpg",
+        "i:https://image.shutterstock.com/image-photo/motivational-quotes-happy-better-life-600w-1683932812.jpg",
+        "i:https://image.shutterstock.com/image-illustration/motivational-quotes-once-all-struggles-600w-1932206939.jpg",
+        "i:https://image.shutterstock.com/image-photo/inspirational-motivational-quote-selective-focus-600w-1937519404.jpg",
+        "i:https://image.shutterstock.com/image-illustration/inspirational-motivational-quote-saying-about-600w-1903162525.jpg",
+        "i:https://image.shutterstock.com/image-photo/inspirational-success-quotes-on-mountain-600w-776453806.jpg",
+        "i:https://image.shutterstock.com/image-photo/inspirational-motivation-quote-on-natue-600w-1925393777.jpg",
+        "i:https://image.shutterstock.com/image-vector/dont-think-outside-box-like-600w-425530816.jpg",
+        "i:https://image.shutterstock.com/image-photo/motivational-quotes-life-600w-1197141952.jpg",
+        "i:https://image.shutterstock.com/image-photo/motivational-inspirational-quote-limits-exist-600w-1124602796.jpg",
+        "i:https://image.shutterstock.com/image-photo/inspirational-motivational-quote-600w-739071169.jpg",
+        "i:https://image.shutterstock.com/image-photo/motivational-inspirational-quote-commit-focus-600w-1093029272.jpg",
+        "i:https://image.shutterstock.com/image-vector/positive-mind-vibes-life-inspirational-600w-425229115.jpg",
+        "i:https://image.shutterstock.com/image-vector/believe-achieve-succeed-inspirational-vector-600w-383692462.jpg",
+        "i:https://image.shutterstock.com/image-vector/foot-making-step-first-hardest-600w-318508883.jpg",
+        "i:https://image.shutterstock.com/image-vector/never-give-motivational-quote-hand-600w-437664406.jpg",
+        "i:https://image.shutterstock.com/image-photo/inspirational-motivational-quote-be-warrior-600w-1119889022.jpg",
+        "i:https://image.shutterstock.com/image-photo/fitness-motivation-quotes-600w-526874635.jpg",
+        "i:https://image.shutterstock.com/image-photo/inspirational-motivating-quotes-on-nature-600w-717721636.jpg",
+        "i:https://image.shutterstock.com/image-vector/you-stronger-than-think-lettering-600w-732364039.jpg",
+        "i:https://image.shutterstock.com/image-vector/vector-illustration-goat-on-top-600w-1022959018.jpg",
+        "i:https://image.shutterstock.com/image-vector/you-will-never-have-this-600w-1260901912.jpg",
+        "i:https://image.shutterstock.com/image-photo/motivational-inspirational-quote-limit-your-600w-1125840059.jpg",
+        "i:https://image.shutterstock.com/image-photo/inspirational-motivating-quote-on-notebook-600w-267961712.jpg",
+        "i:https://image.shutterstock.com/image-illustration/inspirational-motivation-quote-on-blurred-600w-1709597941.jpg",
+        "i:https://image.shutterstock.com/image-illustration/motivational-quote-on-glitter-abstract-600w-381480943.jpg",
+        "i:https://image.shutterstock.com/image-photo/inspirational-motivating-quote-on-nature-600w-1023618562.jpg",
+        "i:https://image.shutterstock.com/image-photo/motivational-inspirational-quote-dont-be-600w-1711285321.jpg",
+        "i:https://image.shutterstock.com/image-illustration/motivational-quote-on-rustic-background-600w-229477888.jpg",
+        "i:https://image.shutterstock.com/image-photo/inspirational-motivational-quote-stay-patient-600w-522447265.jpg"
+      ]
+    },
+    {
+      "tag": "Start",
+      "patterns": [
+        "Starting something new",
+        "New business",
+        "Wish me luck",
+        "Hope I succeed",
+        "Risky",
+        "Should I do it",
+        "I will fail",
+        "will"
+      ],
+      "responses": [
+        "n:https://image.shutterstock.com/image-illustration/best-way-predict-future-create-600w-1685233981.jpg",
+        "n:https://image.shutterstock.com/image-vector/lets-do-this-motivational-saying-600w-1011864985.jpg",
+        "n:https://image.shutterstock.com/image-vector/set-goals-crush-them-repeat-600w-721949521.jpg",
+        "n:https://image.shutterstock.com/image-vector/end-we-only-regret-chances-600w-309246776.jpg"
+      ]
+    },
+    {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
