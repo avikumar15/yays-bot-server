@@ -1,7 +1,7 @@
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
-#Random forest classifier model with n_estimators = 100  
+#Random forest classifier model with n_estimators = 1000  
 
 class RandomForestClassifier:   
   def model2(X, y):
