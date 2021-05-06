@@ -6,20 +6,20 @@
         "Hi",
         "Hey",
         "How are you",
-	"What's up?",
-	"Wassup?",
-	"How have you been?",
+        "What's up?",
+        "Wassup?",
+        "How have you been?",
         "Is anyone there?",
         "Hello",
         "Good day",
-	"You there?"
+        "You there?"
       ],
       "responses": [
         "Hey kiddo",
         "Hello, how you doing?",
         "Hi there, what can I do for you today?",
         "Hi there, how can I help you today?",
-	"Hi! Hope you are having a good day"
+        "Hi! Hope you are having a good day"
       ]
     },
     {
@@ -112,25 +112,125 @@
         "n:https://image.shutterstock.com/image-vector/set-goals-crush-them-repeat-600w-721949521.jpg",
         "n:https://image.shutterstock.com/image-vector/foot-making-step-first-hardest-600w-318508883.jpg",
         "n:https://image.shutterstock.com/image-vector/you-stronger-than-think-lettering-600w-732364039.jpg",
-	"n:https://image.shutterstock.com/image-vector/believe-achieve-succeed-inspirational-vector-600w-383692462.jpg",
-	"n:https://image.shutterstock.com/image-photo/inspirational-success-quotes-on-mountain-600w-776453806.jpg",
+        "n:https://image.shutterstock.com/image-vector/believe-achieve-succeed-inspirational-vector-600w-383692462.jpg",
+        "n:https://image.shutterstock.com/image-photo/inspirational-success-quotes-on-mountain-600w-776453806.jpg",
         "n:https://image.shutterstock.com/image-vector/end-we-only-regret-chances-600w-309246776.jpg"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye", "Have to go", "See ya", "Good night bro", "Ight imma head out", "I gotta go", "Need to go!"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Have to go",
+        "See ya",
+        "Good night bro",
+        "Ight imma head out",
+        "I gotta go",
+        "Need to go!"
+      ],
       "responses": [
         "See you later!",
         "Have a nice day ahead",
         "Bye! Come back again soon.",
-	"See you!"
+        "See you!"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "That helped me", "You are a life saviour", "This helped me", "You are a genius", "You are funny, you are that funny guy!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "That helped me",
+        "You are a life saviour",
+        "This helped me",
+        "You are a genius",
+        "You are funny, you are that funny guy!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "That helped me",
+        "You are a life saviour",
+        "This helped me",
+        "You are a genius",
+        "You are funny, you are that funny guy!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "angry",
+      "patterns": [
+        "I am angry at my boss",
+        "I am furious towards my wife",
+        "Anger is the only emotion I feel right now",
+        "I am filled with fury",
+        "My temper is at an all time high",
+        "I can't control my anger"
+      ],
+      "responses": [
+        "Accept your feeling of anger and think calmly",
+        "Don't make any hasty decisions when you're angry. Think with a cool mind",
+        "Distract yourself from your anger. Like count numbers backwards from 98"
+      ]
+    },
+    {
+      "tag": "covid",
+      "patterns": [
+        "I am worried about the rising Covid cases",
+        "I think I have Corona",
+        "Covid situation in the country is bad",
+        "The pandemic is frightening",
+        "Will I survive this Covid pandemic?",
+        "Will I get vaccine slot for Covid",
+        "I can't imagine getting infected with the virus",
+        "Quarantine sucks",
+        "Quarantine and lockdown are killing my creativity"
+      ],
+      "responses": [
+        "If you feel you need medical help to fight the virus, don't hesitate to contact your doctor",
+        "Panic is more dangerous than the Pandemic. Follow the protocols and protect yourself.",
+        "Don't loose help. Things will go back to normal.",
+        "This pandemic has been devastating for many. We need to stay safe and move forward."
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "I failed this semester.",
+        "I am anxious about the results.",
+        "I have not prepared anything for the exam",
+        "Exam results are tomorrow",
+        "The test did not go well",
+        "Will I pass or fail",
+        "I got very low marks in Maths examination",
+        "I got a bad grade in the science exam",
+        "I hate my school",
+        "College sucks"
+      ],
+      "responses": [
+        "Put your past behind you. You are destined for greater things than this exam",
+        "A single piece of paper cannot decide your future, said Albert Einstein",
+        "Most of the billionares today are school dropouts. Don't loose your hope yet. Prepare well for the next test",
+        "More than the results, what matters is how much knowledge you've gathered"
+      ]
     }
   ]
 }
